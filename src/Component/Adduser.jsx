@@ -29,7 +29,7 @@ function Adduser(props) {
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Title</Form.Label>
+        <Form.Label>Expense</Form.Label>
         <Form.Control
           type="Title"
           placeholder="Enter Title"
@@ -55,7 +55,7 @@ function Adduser(props) {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Note</Form.Label>
+        <Form.Label>Expense Note</Form.Label>
         <Form.Control
           type="Note"
           placeholder="Note"
